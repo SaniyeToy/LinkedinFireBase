@@ -16,6 +16,21 @@
 		07BC8A1A2946162000D3CCFE /* LinkedinFireBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A192946162000D3CCFE /* LinkedinFireBaseTests.swift */; };
 		07BC8A242946162100D3CCFE /* LinkedinFireBaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A232946162100D3CCFE /* LinkedinFireBaseUITests.swift */; };
 		07BC8A262946162100D3CCFE /* LinkedinFireBaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A252946162100D3CCFE /* LinkedinFireBaseUITestsLaunchTests.swift */; };
+		07BC8A3529461E8400D3CCFE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A3429461E8400D3CCFE /* LoginViewController.swift */; };
+		07BC8A3729461E9300D3CCFE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A3629461E9300D3CCFE /* LoginViewModel.swift */; };
+		07BC8A3929461EA200D3CCFE /* LoginViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A3829461EA200D3CCFE /* LoginViewModelImpl.swift */; };
+		07BC8A3B29461EB700D3CCFE /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A3A29461EB700D3CCFE /* LoginBuilder.swift */; };
+		07BC8A3D29461ECC00D3CCFE /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BC8A3C29461ECC00D3CCFE /* Login.storyboard */; };
+		07BC8A402946227400D3CCFE /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A3F2946227400D3CCFE /* AlertHelper.swift */; };
+		07BC8A4F2946546100D3CCFE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07BC8A4E2946546100D3CCFE /* GoogleService-Info.plist */; };
+		07BC8A562946619200D3CCFE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A512946619200D3CCFE /* SignUpViewController.swift */; };
+		07BC8A572946619200D3CCFE /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A522946619200D3CCFE /* SignUpViewModel.swift */; };
+		07BC8A582946619200D3CCFE /* SignUpViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A532946619200D3CCFE /* SignUpViewModelImpl.swift */; };
+		07BC8A592946619200D3CCFE /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BC8A542946619200D3CCFE /* SignUp.storyboard */; };
+		07BC8A5A2946619200D3CCFE /* SignUpBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8A552946619200D3CCFE /* SignUpBuilder.swift */; };
+		0C3AD68E70AAE36CD01C7CC4 /* Pods_LinkedinFireBaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605CE405D7D4A664F77302D0 /* Pods_LinkedinFireBaseTests.framework */; };
+		D442AA2574E1E95F61A26BB1 /* Pods_LinkedinFireBase_LinkedinFireBaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3824820EA3220BEEBAC00DFE /* Pods_LinkedinFireBase_LinkedinFireBaseUITests.framework */; };
+		DD883420278ABF1B6721D5DD /* Pods_LinkedinFireBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCC576962B0676600BF11A9 /* Pods_LinkedinFireBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,27 @@
 		07BC8A1F2946162100D3CCFE /* LinkedinFireBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedinFireBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BC8A232946162100D3CCFE /* LinkedinFireBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedinFireBaseUITests.swift; sourceTree = "<group>"; };
 		07BC8A252946162100D3CCFE /* LinkedinFireBaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedinFireBaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		07BC8A3429461E8400D3CCFE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		07BC8A3629461E9300D3CCFE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		07BC8A3829461EA200D3CCFE /* LoginViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelImpl.swift; sourceTree = "<group>"; };
+		07BC8A3A29461EB700D3CCFE /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
+		07BC8A3C29461ECC00D3CCFE /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		07BC8A3F2946227400D3CCFE /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		07BC8A4E2946546100D3CCFE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		07BC8A512946619200D3CCFE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		07BC8A522946619200D3CCFE /* SignUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		07BC8A532946619200D3CCFE /* SignUpViewModelImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModelImpl.swift; sourceTree = "<group>"; };
+		07BC8A542946619200D3CCFE /* SignUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		07BC8A552946619200D3CCFE /* SignUpBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpBuilder.swift; sourceTree = "<group>"; };
+		3824820EA3220BEEBAC00DFE /* Pods_LinkedinFireBase_LinkedinFireBaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkedinFireBase_LinkedinFireBaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F18399D6FBEA45F35B1E801 /* Pods-LinkedinFireBase-LinkedinFireBaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedinFireBase-LinkedinFireBaseUITests.release.xcconfig"; path = "Target Support Files/Pods-LinkedinFireBase-LinkedinFireBaseUITests/Pods-LinkedinFireBase-LinkedinFireBaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		605CE405D7D4A664F77302D0 /* Pods_LinkedinFireBaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkedinFireBaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		741E48997922A301E04566EC /* Pods-LinkedinFireBaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedinFireBaseTests.release.xcconfig"; path = "Target Support Files/Pods-LinkedinFireBaseTests/Pods-LinkedinFireBaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		794862AC6BFF7B69B22DA063 /* Pods-LinkedinFireBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedinFireBase.release.xcconfig"; path = "Target Support Files/Pods-LinkedinFireBase/Pods-LinkedinFireBase.release.xcconfig"; sourceTree = "<group>"; };
+		98F335B77F15EAA76EF52693 /* Pods-LinkedinFireBaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedinFireBaseTests.debug.xcconfig"; path = "Target Support Files/Pods-LinkedinFireBaseTests/Pods-LinkedinFireBaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCCC576962B0676600BF11A9 /* Pods_LinkedinFireBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinkedinFireBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A2FA83DB43C5CB5C1DC567 /* Pods-LinkedinFireBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedinFireBase.debug.xcconfig"; path = "Target Support Files/Pods-LinkedinFireBase/Pods-LinkedinFireBase.debug.xcconfig"; sourceTree = "<group>"; };
+		FFAC6C6739DDD77E1D4199B3 /* Pods-LinkedinFireBase-LinkedinFireBaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinkedinFireBase-LinkedinFireBaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-LinkedinFireBase-LinkedinFireBaseUITests/Pods-LinkedinFireBase-LinkedinFireBaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD883420278ABF1B6721D5DD /* Pods_LinkedinFireBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3AD68E70AAE36CD01C7CC4 /* Pods_LinkedinFireBaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D442AA2574E1E95F61A26BB1 /* Pods_LinkedinFireBase_LinkedinFireBaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +122,8 @@
 				07BC8A182946162000D3CCFE /* LinkedinFireBaseTests */,
 				07BC8A222946162100D3CCFE /* LinkedinFireBaseUITests */,
 				07BC8A002946161E00D3CCFE /* Products */,
+				254E7C36DD8C0A7D06423D1F /* Pods */,
+				ABAF059F78369F3F27A5C12B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +140,16 @@
 		07BC8A012946161E00D3CCFE /* LinkedinFireBase */ = {
 			isa = PBXGroup;
 			children = (
+				07BC8A502946619200D3CCFE /* SignUp */,
+				07BC8A3E294621F000D3CCFE /* Util */,
+				07BC8A3329461D0C00D3CCFE /* Login */,
 				07BC8A022946161E00D3CCFE /* AppDelegate.swift */,
 				07BC8A042946161E00D3CCFE /* SceneDelegate.swift */,
 				07BC8A062946161E00D3CCFE /* ViewController.swift */,
 				07BC8A082946161E00D3CCFE /* Main.storyboard */,
 				07BC8A0B2946162000D3CCFE /* Assets.xcassets */,
 				07BC8A0D2946162000D3CCFE /* LaunchScreen.storyboard */,
+				07BC8A4E2946546100D3CCFE /* GoogleService-Info.plist */,
 				07BC8A102946162000D3CCFE /* Info.plist */,
 			);
 			path = LinkedinFireBase;
@@ -127,6 +172,61 @@
 			path = LinkedinFireBaseUITests;
 			sourceTree = "<group>";
 		};
+		07BC8A3329461D0C00D3CCFE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				07BC8A3429461E8400D3CCFE /* LoginViewController.swift */,
+				07BC8A3629461E9300D3CCFE /* LoginViewModel.swift */,
+				07BC8A3829461EA200D3CCFE /* LoginViewModelImpl.swift */,
+				07BC8A3A29461EB700D3CCFE /* LoginBuilder.swift */,
+				07BC8A3C29461ECC00D3CCFE /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		07BC8A3E294621F000D3CCFE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				07BC8A3F2946227400D3CCFE /* AlertHelper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		07BC8A502946619200D3CCFE /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				07BC8A512946619200D3CCFE /* SignUpViewController.swift */,
+				07BC8A522946619200D3CCFE /* SignUpViewModel.swift */,
+				07BC8A532946619200D3CCFE /* SignUpViewModelImpl.swift */,
+				07BC8A542946619200D3CCFE /* SignUp.storyboard */,
+				07BC8A552946619200D3CCFE /* SignUpBuilder.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		254E7C36DD8C0A7D06423D1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2FA83DB43C5CB5C1DC567 /* Pods-LinkedinFireBase.debug.xcconfig */,
+				794862AC6BFF7B69B22DA063 /* Pods-LinkedinFireBase.release.xcconfig */,
+				FFAC6C6739DDD77E1D4199B3 /* Pods-LinkedinFireBase-LinkedinFireBaseUITests.debug.xcconfig */,
+				3F18399D6FBEA45F35B1E801 /* Pods-LinkedinFireBase-LinkedinFireBaseUITests.release.xcconfig */,
+				98F335B77F15EAA76EF52693 /* Pods-LinkedinFireBaseTests.debug.xcconfig */,
+				741E48997922A301E04566EC /* Pods-LinkedinFireBaseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABAF059F78369F3F27A5C12B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCCC576962B0676600BF11A9 /* Pods_LinkedinFireBase.framework */,
+				3824820EA3220BEEBAC00DFE /* Pods_LinkedinFireBase_LinkedinFireBaseUITests.framework */,
+				605CE405D7D4A664F77302D0 /* Pods_LinkedinFireBaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07BC8A292946162100D3CCFE /* Build configuration list for PBXNativeTarget "LinkedinFireBase" */;
 			buildPhases = (
+				84420AFA79C71CCA4ECB6C45 /* [CP] Check Pods Manifest.lock */,
 				07BC89FB2946161E00D3CCFE /* Sources */,
 				07BC89FC2946161E00D3CCFE /* Frameworks */,
 				07BC89FD2946161E00D3CCFE /* Resources */,
+				FC258DB1D89DD8E47D5B9A44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07BC8A2C2946162100D3CCFE /* Build configuration list for PBXNativeTarget "LinkedinFireBaseTests" */;
 			buildPhases = (
+				E7E1C88CBEE77326B64D6708 /* [CP] Check Pods Manifest.lock */,
 				07BC8A112946162000D3CCFE /* Sources */,
 				07BC8A122946162000D3CCFE /* Frameworks */,
 				07BC8A132946162000D3CCFE /* Resources */,
@@ -169,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07BC8A2F2946162100D3CCFE /* Build configuration list for PBXNativeTarget "LinkedinFireBaseUITests" */;
 			buildPhases = (
+				9B40119FA4DE45F8376E401C /* [CP] Check Pods Manifest.lock */,
 				07BC8A1B2946162000D3CCFE /* Sources */,
 				07BC8A1C2946162000D3CCFE /* Frameworks */,
 				07BC8A1D2946162000D3CCFE /* Resources */,
+				A95604A16F1DD28961E100CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +336,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BC8A3D29461ECC00D3CCFE /* Login.storyboard in Resources */,
 				07BC8A0F2946162000D3CCFE /* LaunchScreen.storyboard in Resources */,
+				07BC8A592946619200D3CCFE /* SignUp.storyboard in Resources */,
+				07BC8A4F2946546100D3CCFE /* GoogleService-Info.plist in Resources */,
 				07BC8A0C2946162000D3CCFE /* Assets.xcassets in Resources */,
 				07BC8A0A2946161E00D3CCFE /* Main.storyboard in Resources */,
 			);
@@ -253,14 +361,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84420AFA79C71CCA4ECB6C45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkedinFireBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B40119FA4DE45F8376E401C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkedinFireBase-LinkedinFireBaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95604A16F1DD28961E100CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LinkedinFireBase-LinkedinFireBaseUITests/Pods-LinkedinFireBase-LinkedinFireBaseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LinkedinFireBase-LinkedinFireBaseUITests/Pods-LinkedinFireBase-LinkedinFireBaseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LinkedinFireBase-LinkedinFireBaseUITests/Pods-LinkedinFireBase-LinkedinFireBaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E1C88CBEE77326B64D6708 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinkedinFireBaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC258DB1D89DD8E47D5B9A44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LinkedinFireBase/Pods-LinkedinFireBase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LinkedinFireBase/Pods-LinkedinFireBase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LinkedinFireBase/Pods-LinkedinFireBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07BC89FB2946161E00D3CCFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BC8A582946619200D3CCFE /* SignUpViewModelImpl.swift in Sources */,
+				07BC8A3529461E8400D3CCFE /* LoginViewController.swift in Sources */,
 				07BC8A072946161E00D3CCFE /* ViewController.swift in Sources */,
+				07BC8A572946619200D3CCFE /* SignUpViewModel.swift in Sources */,
+				07BC8A3B29461EB700D3CCFE /* LoginBuilder.swift in Sources */,
+				07BC8A3929461EA200D3CCFE /* LoginViewModelImpl.swift in Sources */,
 				07BC8A032946161E00D3CCFE /* AppDelegate.swift in Sources */,
+				07BC8A3729461E9300D3CCFE /* LoginViewModel.swift in Sources */,
+				07BC8A562946619200D3CCFE /* SignUpViewController.swift in Sources */,
+				07BC8A402946227400D3CCFE /* AlertHelper.swift in Sources */,
 				07BC8A052946161E00D3CCFE /* SceneDelegate.swift in Sources */,
+				07BC8A5A2946619200D3CCFE /* SignUpBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +652,7 @@
 		};
 		07BC8A2A2946162100D3CCFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A2FA83DB43C5CB5C1DC567 /* Pods-LinkedinFireBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +681,7 @@
 		};
 		07BC8A2B2946162100D3CCFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794862AC6BFF7B69B22DA063 /* Pods-LinkedinFireBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +710,7 @@
 		};
 		07BC8A2D2946162100D3CCFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F335B77F15EAA76EF52693 /* Pods-LinkedinFireBaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +731,7 @@
 		};
 		07BC8A2E2946162100D3CCFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741E48997922A301E04566EC /* Pods-LinkedinFireBaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +752,7 @@
 		};
 		07BC8A302946162100D3CCFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFAC6C6739DDD77E1D4199B3 /* Pods-LinkedinFireBase-LinkedinFireBaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +771,7 @@
 		};
 		07BC8A312946162100D3CCFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F18399D6FBEA45F35B1E801 /* Pods-LinkedinFireBase-LinkedinFireBaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
