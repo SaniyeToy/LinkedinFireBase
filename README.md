@@ -1,7 +1,7 @@
 # LinkedinFireBase
 - I'm working on this project
 - Sharing the screens I've completed
-- Let me give you a tip LinkedinClone will be great :)
+- Let me give you a tip LinkedinFireBase will be great :)
 
 
  <table>
